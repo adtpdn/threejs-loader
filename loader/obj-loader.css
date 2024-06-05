@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    /* background: radial-gradient(circle, #82707a, #24111e 100%); */
+  }
+  main {
+    position: relative;
+    /*
+    width: 100vw;
+    height: 100vh;
+  */
+    z-index: 1;
+  }
+  
+  canvas {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    z-index: 0;
+  }
